@@ -1,0 +1,159 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #17181a;
+  font-family: "Montserrat", sans-serif;
+}
+
+#Logo {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-header {
+  min-height: 10vh;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0rem;
+}
+
+.line1,
+.line2 {
+  width: 3rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: white;
+  pointer-events: none;
+}
+
+.slide {
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background: #17181a;
+}
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-basis: 25rem;
+  padding-left: 5rem;
+  /*todo to add reveal effect */
+  position: relative;
+}
+
+.hero-img {
+  position: relative;
+  flex: 1;
+  flex-basis: 25rem;
+}
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mountain-span {
+  color: rgb(255, 139, 93);
+}
+
+.hike-span {
+  color: rgb(112, 4, 98);
+}
+
+.hero-desc h2 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+.hero-desc p {
+  padding: 2rem 0rem;
+  font-size: 1.5rem;
+  color: rgb(190, 189, 189);
+}
+
+.explore {
+  padding: 0.75rem 1.5rem;
+  background: none;
+  color: white;
+  border: none;
+  border: 1px solid white;
+  text-decoration: none;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Todo: make sure to comment out these */
+  /* padding: 10%; */
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+  clip-path: circle(50px at 100% -10%);
+  -webkit-clip-path: circle(50px at 100% -10%);
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.nav-links {
+  font-size: 3rem;
+  flex-basis: 30rem;
+}
+.nav-links h3 {
+  padding: 2rem 0rem;
+}
+.contact {
+  flex-basis: 30rem;
+}
+.contact h2 {
+  font-size: 2rem;
+}
+.contact p {
+  padding: 1rem 0rem;
+  font-size: 1.5rem;
+}
+
+.reveal-img,
+.reveal-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #17181a;
+  left: 0;
+  top: 0;
+}
+
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 50%;
+}
