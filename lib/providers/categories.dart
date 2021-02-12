@@ -4,43 +4,43 @@ class Categories {
   final List<Category> _categoryList = [
     Category(
       name: 'software developer',
-      imageUrl: 'assets/images/software-developer.jpg',
+      imageUrl: 'assets/images/categories/software-developer.jpg',
     ),
     Category(
       name: 'software engineer',
-      imageUrl: 'assets/images/software-engineer.jpg',
+      imageUrl: 'assets/images/categories/software-engineer.jpg',
     ),
     Category(
       name: 'fullstack developer',
-      imageUrl: 'assets/images/fullstack.png',
+      imageUrl: 'assets/images/categories/fullstack.png',
     ),
     Category(
       name: 'web developer',
-      imageUrl: 'assets/images/web-developer.jpg',
+      imageUrl: 'assets/images/categories/web-developer.jpg',
     ),
     Category(
       name: 'backend developer',
-      imageUrl: 'assets/images/backend.png',
+      imageUrl: 'assets/images/categories/backend.png',
     ),
     Category(
       name: 'java',
-      imageUrl: 'assets/images/java.png',
+      imageUrl: 'assets/images/categories/java.png',
     ),
     Category(
       name: 'android',
-      imageUrl: 'assets/images/android.jpg',
+      imageUrl: 'assets/images/categories/android.jpg',
     ),
     Category(
       name: 'python',
-      imageUrl: 'assets/images/python.jpg',
+      imageUrl: 'assets/images/categories/python.jpg',
     ),
     Category(
       name: 'testing',
-      imageUrl: 'assets/images/testing.jpg',
+      imageUrl: 'assets/images/categories/testing.jpg',
     ),
     Category(
       name: 'javascript',
-      imageUrl: 'assets/images/javascript.jpg',
+      imageUrl: 'assets/images/categories/javascript.jpg',
     ),
   ];
 
