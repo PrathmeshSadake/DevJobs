@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primaryColor: Color(0xFF101010),
-          accentColor: Color(0xFF111111),
+          accentColor: Color(0xFFF9AA33),
           backgroundColor: Color(0xFFF9FAFE),
         ),
         home: Homepage(),
