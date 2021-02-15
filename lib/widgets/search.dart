@@ -18,14 +18,9 @@ class _SearchState extends State<Search> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Colors.white,
       child: Column(
         children: [
-          Container(
-            width: double.infinity,
-            height: 200,
-            decoration: BoxDecoration(),
-            child: Center(child: Text('Search for Jobs')),
-          ),
           Container(
             padding: EdgeInsets.symmetric(horizontal: 25),
             margin: EdgeInsets.only(top: 20, bottom: 10),
@@ -44,7 +39,7 @@ class _SearchState extends State<Search> {
                     EdgeInsets.symmetric(vertical: 8, horizontal: 20),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.all(
-                    Radius.circular(50),
+                    Radius.circular(5),
                   ),
                 ),
               ),
@@ -75,12 +70,16 @@ class _SearchState extends State<Search> {
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 25, vertical: 12),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(30),
-                color: Colors.amber,
+                borderRadius: BorderRadius.circular(10),
+                color: Color(0xFFF9AA33),
               ),
               child: Text(
                 'SEARCH',
-                style: TextStyle(color: Colors.white, letterSpacing: 2),
+                style: TextStyle(
+                  color: Color(0xFF232F34),
+                  letterSpacing: 2,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           )
