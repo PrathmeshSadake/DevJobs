@@ -1,9 +1,8 @@
-
-import 'package:DevJobs/providers/categories.dart';
-import 'package:DevJobs/providers/jobs.dart';
-import 'package:DevJobs/providers/news.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import './providers/jobs.dart';
+import './providers/news.dart';
 import './screens/homepage.dart';
 
 void main() => runApp(MyApp());
