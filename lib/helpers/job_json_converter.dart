@@ -1,5 +1,5 @@
-import 'package:DevJobs/helpers/date_formatter.dart';
-import 'package:DevJobs/models/job.dart';
+import './date_formatter.dart';
+import '../models/job.dart';
 
 class JsonConverter {
   void jsonConverter(dynamic data, List<Job> list) {
