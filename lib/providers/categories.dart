@@ -1,4 +1,4 @@
-import 'package:DevJobs/models/category.dart';
+import '../models/category.dart';
 
 class Categories {
   final List<Category> _categoryList = [
