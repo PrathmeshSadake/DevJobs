@@ -1,9 +1,10 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:DevJobs/helpers/job_json_converter.dart';
-import 'package:DevJobs/models/job.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
+
+import '../helpers/job_json_converter.dart';
+import '../models/job.dart';
 
 class Jobs extends ChangeNotifier {
   List<Job> allJobs = [];

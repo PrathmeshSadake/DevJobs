@@ -1,9 +1,10 @@
-import 'package:DevJobs/helpers/date_formatter.dart';
-import 'package:DevJobs/models/article.dart';
-import 'package:flutter/foundation.dart';
-import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
+import 'package:http/http.dart' as http;
+
+import '../helpers/date_formatter.dart';
+import '../models/article.dart';
 
 class News extends ChangeNotifier {
   List<Article> _news = [];
