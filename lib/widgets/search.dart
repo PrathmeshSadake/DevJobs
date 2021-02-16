@@ -1,5 +1,7 @@
-import 'package:DevJobs/screens/searched_job.dart';
 import 'package:flutter/material.dart';
+
+import '../screens/searched_job.dart';
+
 
 class Search extends StatefulWidget {
   @override
