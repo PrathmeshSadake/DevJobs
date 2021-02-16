@@ -1,10 +1,11 @@
-import 'package:DevJobs/helpers/launch_url.dart';
-import 'package:DevJobs/models/job.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_html/style.dart';
+import 'package:flutter_html/flutter_html.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:transparent_image/transparent_image.dart';
+
+import '../helpers/launch_url.dart';
+import '../models/job.dart';
 
 class JobViewScreen extends StatelessWidget {
   final Job job;
@@ -149,7 +150,9 @@ class JobViewScreen extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      LaunchUrl.launchUrl(job.url);
+                    },
                   ),
                   RaisedButton(
                     color: Color(0xFFF9AA33),
@@ -160,7 +163,9 @@ class JobViewScreen extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      LaunchUrl.launchUrl(job.companyUrl);
+                    },
                   ),
                 ],
               ),
