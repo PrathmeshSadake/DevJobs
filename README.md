@@ -1,16 +1,7 @@
 # DevJobs
 
-A new Flutter project.
+<img src="https://github.com/PrathmeshSadake/DevJobs/blob/main/assets/devjobs.png" width="100%"/>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Jobs searching Flutter application with features like category wise jobs, searching for jobs and there's also a section where user can read business news articles.
+Each job and news article has a url linked with it so user can open it it there favourite browser.
+Jobs are listed using Github jobs Api and for the news I have used NewsApi.org.**
